@@ -66,7 +66,7 @@ img {
   border-bottom: 1px solid #ececec;
 }
 
-.navigation {
+.site-nav {
   display: flex;
   align-items: center;
 }
@@ -77,18 +77,18 @@ img {
 
 
 
-.contacts-item:not(:last-child) {
+.contacts__item:not(:last-child) {
   margin-right: 50px;
 }
 
-.contacts-item {
+.contacts__item {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 
-.site-nav.list {
+.site-nav__item {
   display: flex;
 
 }
@@ -120,7 +120,7 @@ img {
   margin-left: auto;
 }
 
-.contacts-tel__icon {
+.contacts__tel__icon {
   align-items: center;
   width: 10px;
   height: 16px;
@@ -129,7 +129,7 @@ img {
 
 }
 
-.contacts-mail__icon {
+.contacts__mail__icon {
   align-items: center;
   width: 16px;
   height: 12px;
@@ -143,11 +143,11 @@ img {
   display: flex;
 }
 
-.advantages-list-wraper {
+.advantages__list__wraper {
   display: flex;
 }
 
-.advantages-item:not(:last-child) {
+.advantages__item:not(:last-child) {
   padding-right: 30px;
 }
 
@@ -387,7 +387,7 @@ img {
 }
 
 /*Стилізація навігації по сайту - nav-site*/
-.site-nav .link {
+.site-nav__link  {
   color: var(--title-text-color);
   font-weight: 500;
   font-size: 14px;
@@ -395,19 +395,19 @@ img {
   letter-spacing: 0.02em;
 }
 
-.site-nav .link:hover,
-.site-nav .link:focus {
+.site-nav__link:hover,
+.site-nav__link:focus {
   color: var(--accent-color);
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
 
-.site-nav .link.current {
+.site-nav__link.current {
   color: var(--accent-color);
 }
 
 /*Стилызація навігації адресу - contacts*/
-.contacts .link {
+.contacts__link {
   color: var(--prymary-text-color);
   font-weight: 500;
   font-size: 14px;
@@ -417,20 +417,20 @@ img {
   margin-bottom: 0px;
 }
 
-.contacts .link:hover,
-.contacts .link:focus {
+.contacts__link:hover,
+.contacts__link:focus {
   color: var(--accent-color);
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.contacts-item:hover .contacts-mail__icon,
-.contacts-item:focus .contacts-mail__icon {
+.contacts__item:hover .contacts__mail__icon,
+.contacts__item:focus .contacts__mail__icon {
   fill: var(--accent-color);
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.contacts-item:hover .contacts-tel__icon,
-.contacts-item:focus .tcontacts-tel__icon {
+.contacts__item:hover .contacts__tel__icon,
+.contacts__item:focus .tcontacts__tel__icon {
   fill: var(--accent-color);
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
@@ -453,7 +453,7 @@ img {
     url(../img/bg.jpg);
 }
 
-.hero-title {
+.hero__title {
   margin-top: 0px;
   margin-bottom: 0px;
   color: var(--white-text);
@@ -465,7 +465,7 @@ img {
   margin-bottom: 30px;
 }
 
-.hero .button {
+.hero__button{
   display: inline-block;
   color: var(--white-text);
   background-color: var(--accent-color);
@@ -492,7 +492,7 @@ img {
   letter-spacing: 0.03em;
 }
 
-.advant {
+.advantages__list  {
   padding-top: 94px;
   padding-bottom: 94px;
 }
@@ -516,7 +516,7 @@ img {
   letter-spacing: 0.03em;
 }
 
-.advantages-item__icon {
+.advantages__item__icon {
   display: block;
 
   width: 270px;
