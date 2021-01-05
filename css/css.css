@@ -139,7 +139,7 @@ img {
 
 /*==================End Header============================*/
 
-.section.advant {
+.advantages {
   display: flex;
 }
 
@@ -151,7 +151,7 @@ img {
   padding-right: 30px;
 }
 
-.work-text {
+.work__text {
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;
@@ -167,7 +167,7 @@ img {
 
 }
 
-.work-text-item {
+.work__text__container {
   display: block;
   width: 370px;
   height: 70px;
@@ -181,13 +181,13 @@ img {
   bottom: 0;
 }
 
-.work-list {
+.work__list {
   display: flex;
 
 
 }
 
-.work-list__page {
+.work__list__page {
   padding-right: 30px;
 }
 
@@ -497,7 +497,7 @@ img {
   padding-bottom: 94px;
 }
 
-.advantages .title {
+.advantages__title {
   color: var(--title-text-color);
   font-weight: bold;
   font-weight: bold;
@@ -508,7 +508,7 @@ img {
   letter-spacing: 0.03em;
 }
 
-.advantages .text {
+.advantages__text {
   font-size: 14px;
   line-height: 1.71;
   margin-top: 0px;
