@@ -1,0 +1,138 @@
+.addres-text {
+    margin-bottom: 9px;
+  }
+  
+  .footer-list__addres:not(:last-child) {
+    margin-bottom: 9px;
+  }
+  
+  .footer {
+    padding-bottom: 60px;
+    padding-top: 60px;
+  }
+
+  .footer .logo {
+    font-family: Raleway, cursive;
+    letter-spacing: 0.03em;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 1.19;
+    display: inline-block;
+    margin-bottom: 20px;
+  }
+  .footer {
+    background-color: #2f303a;
+  }
+  
+  .logo-white {
+    color: var(--white-text);
+  }
+  
+  .addres-text {
+    color: var(--white-text);
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+  }
+  
+  .addres-container {
+    margin-right: 70px;
+  }
+  
+  .footer .link {
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 14px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+  }
+  
+  .footer-list__text {
+    color: var(--white-text);
+    text-transform: uppercase;
+  
+  }
+  
+  .footer-list__link {
+    display: inline-flex;
+    justify-content: center;
+    border-radius: 50%;
+    width: 44px;
+    height: 44px;
+    background-color: rgba(255, 255, 255, 0.1);
+    margin-right: 10px;
+    margin-top: 20px;
+  }
+  
+  .footer-list__icon {
+    display: flex;
+    fill: var(--white-text);
+    width: 40px;
+    height: 40px;
+  }
+  
+  .footer>.container {
+    display: flex;
+    align-items: baseline;
+  }
+  
+  .footer-list__link:hover,
+  .footer-list__link:focus {
+    background-color: var(--accent-color);
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  
+  .footer-list__items {
+    display: flex;
+  }
+  
+  .futter-button {
+    display: flex;
+  
+    color: var(--white-text);
+    background-color: var(--accent-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    min-width: 200px;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 1.87;
+    margin-left: 12px;
+    border-radius: 4px;
+    border: 0;
+    padding: 10px 32px
+  }
+  
+  .contain-footer-field {
+    display: inline-block;
+  }
+  
+  .futter-field {
+    margin-left: 93px;
+  }
+  
+  
+  
+  .footer-svg {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    margin-left: 10px;
+  }
+  
+  
+  
+  
+  .footer-input-field {
+    margin-top: 20px;
+    width: 358px;
+    height: 50px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-sizing: border-box;
+    background-color: #2F303A;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+    color: var(--prymary-text-color);
+    padding-left: 10px;
+  }
+  
+  
