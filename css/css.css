@@ -662,7 +662,7 @@ img {
 
 /* portfolio*/
 
-.filter {
+.main__button {
   display: inline-flex;
   font-family: inherit;
   font-size: 16px;
@@ -681,8 +681,8 @@ img {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.filter:hover,
-.filter:focus {
+.main__button:hover,
+.main__button:focus {
   background-color: var(--accent-color);
   color: var(--white-text);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1),
@@ -765,17 +765,17 @@ img {
 
 
 
-.section-main-portfolio {
+.main {
   padding-top: 94px;
   padding-bottom: 94px;
 }
 
-.items-button {
+.main__list {
   display: flex;
   justify-content: center;
 }
 
-.item-button:not(:last-child) {
+.main__item:not(:last-child) {
   padding-right: 8px;
   margin-bottom: 34px;
 }
