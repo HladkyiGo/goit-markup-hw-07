@@ -1,39 +1,35 @@
-.client .list {
+.client {
+  & .list {
     display: flex;
     justify-content: space-between;
     padding-top: 50px;
   }
-  
-  .client-item:hover,
-  .client-item:focus {
-  
+  &__item:hover,
+  &__item:focus {
     transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
-  
-  .client__icon {
+  &__item:hover,
+  &__item:focus {
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  &__icon {
     fill: #afb1b8;
     height: 50px;
   }
-  
-  .client__link:hover .client__icon,
-  .client__link:focus .client__icon {
-  
+  &__link:hover &__icon,
+  &__link:focus &__icon {
     fill: var(--accent-color);
     transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  
   }
-  
-  .client__link:hover {
+  &__link:hover {
     border: solid var(--accent-color) 1px;
     transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
-  
-  .section.client {
+  &.client {
     padding-top: 94px;
     padding-bottom: 94px;
   }
-  
-  .client__link {
+  &__link {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -42,4 +38,4 @@
     border: solid #afb1b8 1px;
     border-radius: 4px;
   }
-  
+}
